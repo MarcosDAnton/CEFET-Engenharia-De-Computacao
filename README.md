@@ -1,1 +1,1 @@
-# CEFET
+# CEFET Engenharia de Computação
