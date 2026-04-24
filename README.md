@@ -1,1 +1,1 @@
-# CEFET Engenharia de Computação
+# CEFET/RJ
