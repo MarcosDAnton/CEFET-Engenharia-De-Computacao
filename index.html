@@ -7,6 +7,37 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./src/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+    <style>
+        /* Botão flutuante do Gemini interno */
+        .fab-button {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            z-index: 1000;
+            padding: 0;
+            overflow: hidden;
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .fab-button:hover {
+            transform: scale(1.1);
+        }
+
+        .fab-button:active {
+            transform: scale(0.95);
+        }
+    </style>
 </head>
 
 <body>
@@ -68,6 +99,10 @@
                     </section>
         </header>
     </main>
+
+    <a class="fab-button" href="https://gemini.google.com/gem/1eRqFGytCTPIpHOZc77eDCCKaqnEHOsIo?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Abrir Gemini">
+       <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_SparkIcon_.width-500.format-webp.webp" alt="Gemini" width="45">
+    </a>
 
 </body>
 </html>
